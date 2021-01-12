@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Open sans',sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+
+}
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+
+}
+p{
+    margin: 10px 0;
+
+}
+img{
+    width: 100%;
+}
+b{
+    
+    
+    color:black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    opacity: 0.8;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+    
+
+}
+.navbar a{
+    color: #fff;
+    padding: 10px 20px;
+    margin:0 5px
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a:hover{
+    border-bottom: green 2px solid;
+
+}
+.navbar logo{
+    font-weight: 400;
+}
+/*  header */
+.hero{
+    background: url(/img/adult-1850925_1920.jpg) no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding:0px 20px;
+}
+.content h1{
+    font-size: 35px;
+}
+.content p{
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px 0 30px;
+}
+
+/* Icons */
+.icon{
+    padding: 30px;
+}
+.icon h3{
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.icon i{
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#programs{
+    background:url(/img/man-1282232_1920.jpg);
+    color: white;
+}
+.gallery{
+    background-color: aquamarine;
+}
+
+.gallery img:hover{
+    opacity:0.8 ;
+}
+.form{
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding:0px 20px;
+    background-color: black;
+    color: #fff;
+
+}
+.form.group{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
